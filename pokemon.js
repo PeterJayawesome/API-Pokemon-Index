@@ -11,7 +11,7 @@ $(document).on('click','img',function(){
   var id = $(this).attr("id");
 
   $.get(("http://pokeapi.co/api/v1/pokemon/"+id+"/"),function(res) {
-    console.log(res);
+    // console.log(res);
     $('#information').html("");
     $('#information').append("<p class='name'>"+res.name+"</p>");
     $('#information').append("<img class='pic' src='http://pokeapi.co/media/img/"+id+".png'>");
