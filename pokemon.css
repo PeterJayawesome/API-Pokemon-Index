@@ -1,0 +1,12 @@
+#picture{
+  width: 500px;
+  display: inline-block;
+}
+#information{
+  width: 300px;
+  border: 10px solid red;
+  height: 600px;
+  position: fixed;
+  top: 20px;
+  right: 10px;
+}
